@@ -1,0 +1,22 @@
+.footer {
+  background: black;
+  padding: 0 6px;
+  display: flex;
+  justify-content: space-between;
+  div {
+    color: darkgray;
+    font-family: 'Poiret One';
+    p {
+      margin: 0;
+      a {
+        color: inherit;
+        font-size: inherit;
+        transition: 0.3s;
+      }
+      a:hover {
+        color: white;
+        font-size: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.wrapper {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 530px;
+  font-family: 'Poiret One';
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.top {
+  display: flex;
+  height: 40%;
+  line-height: 200px;
+}
+
+.square {
+  border: 3px solid black;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.yellow {
+  transition: 0.3s;
+  background: var(--yellow);
+  width: 35%;
+  color: var(--yellow);
+}
+
+.yellow:hover {
+  width: 70%;
+}
+
+.blue:hover {
+  width: 60%;
+}
+
+.square:hover {
+  background: white;
+  color: black;
+}
+
+.two {
+  width: 15%;
+}
+
+.three {
+  width: 50%;
+}
+
+.bottom {
+  display: flex;
+  height: 60%;
+  line-height: 330px;
+}
+
+.four {
+  transition: 0.3s;
+  width: 35%;
+}
+
+.blue {
+  width: 15%;
+  background: var(--blue);
+  color: var(--blue);
+}
+
+.six {
+  width: 30%;
+}
+
+.red {
+  width: 20%;
+  background: var(--red);
+  color: var(--red);
+}
+
+.red:hover {
+  width: 56%;
+}
