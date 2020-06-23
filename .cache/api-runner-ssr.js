@@ -3,10 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/ieva/portfolio/homepage/node_modules/gatsby-plugin-canonical-urls/gatsby-ssr'),
-      options: {"plugins":[],"siteUrl":"https://www.your-app-domain.netlify.app/"},
-    },{
-      plugin: require('/home/ieva/portfolio/homepage/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"jamstack-javascript-boilerplate","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      options: {"plugins":[],"siteUrl":"https://portfolio-page-app.herokuapp.com"},
     },{
       plugin: require('/home/ieva/portfolio/homepage/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},

@@ -6,8 +6,8 @@ module.exports = {
     description: `Homepage`,
     author: `ieva-vyliaudaite`,
     type: process.env.GATSBY_ACTIVE_ENV || 'staging',
-    siteUrl: `https://www.your-app-domain.netlify.app/`,
-    hostname: `your-app-domain.netlify.app`,
+    siteUrl: `https://portfolio-page-app.herokuapp.com`,
+    hostname: `portfolio-page-app.herokuapp.com`,
   },
   plugins: [
     {
@@ -33,14 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.your-app-domain.netlify.app/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        siteUrl: `https://portfolio-page-app.herokuapp.com`,
       },
     },
     `gatsby-plugin-sass`,
@@ -51,18 +44,6 @@ module.exports = {
         langKeyDefault: 'en',
         useLangKeyLayout: false,
         prefixDefault: false,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `jamstack-javascript-boilerplate`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,
