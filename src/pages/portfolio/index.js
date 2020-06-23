@@ -111,7 +111,11 @@ const PortfolioPage = () => {
                 <a
                   href="https://github.com/microieva/worm-game"
                   target="blank"
-                  style={{ textDecoration: 'none', color: 'inherit' }}
+                  style={{
+                    textDecoration: 'none',
+                    color: 'inherit',
+                    cursor: 'not-allowed',
+                  }}
                 >
                   demo
                 </a>
