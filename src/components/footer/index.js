@@ -14,7 +14,7 @@ const Footer = () => {
           inspired by:
           <a href="https://en.wikipedia.org/wiki/Piet_Mondrian" target="blank">
             {' '}
-            Modrian
+            Mondrian
           </a>{' '}
           &{' '}
           <a href="https://en.wikipedia.org/wiki/Bauhaus" target="blank">
