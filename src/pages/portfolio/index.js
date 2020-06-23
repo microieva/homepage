@@ -50,7 +50,7 @@ const PortfolioPage = () => {
             <div className={portfoliopageStyles.links}>
               <p>
                 <a
-                  href="https://microieva.github.io/countries-and-weather/"
+                  href="https://sheltered-eyrie-21915.herokuapp.com/"
                   target="blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
