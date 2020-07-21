@@ -20,6 +20,28 @@ const PortfolioPage = () => {
           >
             <h5>Javascript</h5>
             <div className={portfoliopageStyles.links}>
+              <p>Random color generator</p>
+              <p>
+                <a
+                  href="https://microieva.github.io/color-generator/"
+                  target="blank"
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                  demo
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://github.com/microieva/color-generator"
+                  target="blank"
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                  code
+                </a>
+              </p>
+            </div>
+            <div className={portfoliopageStyles.links}>
+              <p>Incomes and expences with local storage</p>
               <p>
                 <a
                   href="https://microieva.github.io/color-generator/"
@@ -79,9 +101,10 @@ const PortfolioPage = () => {
           >
             <h5>React with Redux</h5>
             <div className={portfoliopageStyles.links}>
+              <p>Form and listing</p>
               <p>
                 <a
-                  href="https://microieva.github.io/bank-account/"
+                  href="https://members-database.herokuapp.com/"
                   target="blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
@@ -90,7 +113,7 @@ const PortfolioPage = () => {
               </p>
               <p>
                 <a
-                  href="https://github.com/microieva/bank-account"
+                  href="https://github.com/microieva/farmers-database"
                   target="blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
@@ -107,7 +130,8 @@ const PortfolioPage = () => {
           >
             <h5>Java</h5>
             <div className={portfoliopageStyles.links}>
-              <p>
+              <p>Snake game</p>
+              <p classname={portfoliopageStyles.tooltiptext}>
                 <a
                   href="https://github.com/microieva/worm-game"
                   target="blank"
