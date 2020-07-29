@@ -20,3 +20,44 @@
     }
   }
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: #2c2929;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  margin-left: -120px;
+  top: -40px;
+  opacity: 0;
+  transition: opacity 0.7s;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltiptext::after {
+  content: ' ';
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #2c2929 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip:hover {
+  cursor: pointer;
+}
