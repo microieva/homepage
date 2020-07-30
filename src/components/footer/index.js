@@ -2,39 +2,27 @@ import React from 'react'
 import footerStyles from './styles.module.scss'
 
 const copyPhoneNumber = () => {
-  const tooltipText = document.querySelector('span')
   const phone = document.querySelector('#phoneNumber')
-  let phoneNumber = phone.textContent.slice(0, -4)
-  let textArea = document.createElement('input')
+  const phoneNumber = phone.textContent.slice(0, -4)
+  const textArea = document.createElement('input')
   textArea.value = phoneNumber
   document.body.appendChild(textArea)
   textArea.select()
   document.execCommand('copy')
+  console.log('copied phone number:', textArea.value)
   textArea.remove()
-
-  tooltipText.textContent = 'Copied!'
-  setInterval(() => {
-    tooltipText.textContent = 'Copy'
-  }, 1000)
-  console.log('copied phone number')
 }
 
 const copyEmail = () => {
-  const tooltipText = document.querySelector('span')
   const email = document.querySelector('#email')
-  let emailAddress = email.textContent.slice(0, -4)
-  let textArea = document.createElement('input')
+  const emailAddress = email.textContent.slice(0, -4)
+  const textArea = document.createElement('input')
   textArea.value = emailAddress
   document.body.appendChild(textArea)
   textArea.select()
   document.execCommand('copy')
+  console.log('copied email address:', textArea.value)
   textArea.remove()
-
-  tooltipText.textContent = 'Copied!'
-  setInterval(() => {
-    tooltipText.textContent = 'Copy'
-  }, 1000)
-  console.log('copied email address')
 }
 
 const Footer = () => {
@@ -44,13 +32,19 @@ const Footer = () => {
         <p>contact me:</p>
         <div
           id="phoneNumber"
+          type="text"
           className={footerStyles.tooltip}
           onClick={copyPhoneNumber}
         >
           +358405899590
           <span className={footerStyles.tooltiptext}>Copy</span>
         </div>
-        <div id="email" className={footerStyles.tooltip} onClick={copyEmail}>
+        <div
+          id="email"
+          type="text"
+          className={footerStyles.tooltip}
+          onClick={copyEmail}
+        >
           ieva.vyliaudaite@me.com
           <span className={footerStyles.tooltiptext}>Copy</span>
         </div>

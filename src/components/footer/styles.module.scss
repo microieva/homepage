@@ -61,3 +61,11 @@
 .tooltip:hover {
   cursor: pointer;
 }
+
+.tooltip:active .tooltiptext {
+  background: green;
+}
+
+.tooltip:active .tooltiptext:after {
+  border-color: green transparent transparent transparent;
+}
