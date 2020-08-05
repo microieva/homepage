@@ -18,7 +18,7 @@ const PortfolioPage = () => {
               <p>
                 <a
                   href="https://microieva.github.io/color-generator/"
-                  target="blank"
+                  target="_blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   demo
@@ -27,7 +27,7 @@ const PortfolioPage = () => {
               <p>
                 <a
                   href="https://github.com/microieva/color-generator"
-                  target="blank"
+                  target="_blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   code
@@ -41,7 +41,7 @@ const PortfolioPage = () => {
               <p>
                 <a
                   href="https://sheltered-eyrie-21915.herokuapp.com/"
-                  target="blank"
+                  target="_blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   demo
@@ -50,7 +50,7 @@ const PortfolioPage = () => {
               <p>
                 <a
                   href="https://github.com/microieva/countries-and-weather"
-                  target="blank"
+                  target="_blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   code
@@ -67,7 +67,7 @@ const PortfolioPage = () => {
               <p>
                 <a
                   href="https://members-database.herokuapp.com/"
-                  target="blank"
+                  target="_blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   demo
@@ -76,7 +76,7 @@ const PortfolioPage = () => {
               <p>
                 <a
                   href="https://github.com/microieva/farmers-database"
-                  target="blank"
+                  target="_blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   code
@@ -91,7 +91,7 @@ const PortfolioPage = () => {
                 <span className={styles.tooltiptext}>Demo localy</span>
                 <a
                   href="https://github.com/microieva/worm-game"
-                  target="blank"
+                  target="_blank"
                   style={{
                     textDecoration: 'none',
                     color: 'inherit',
@@ -104,7 +104,7 @@ const PortfolioPage = () => {
               <p>
                 <a
                   href="https://github.com/microieva/worm-game"
-                  target="blank"
+                  target="_blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   code
