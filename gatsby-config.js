@@ -6,8 +6,8 @@ module.exports = {
     description: `Homepage`,
     author: `ieva-vyliaudaite`,
     type: process.env.GATSBY_ACTIVE_ENV || 'staging',
-    siteUrl: `https://portfolio-page-app.herokuapp.com`,
-    hostname: `portfolio-page-app.herokuapp.com`,
+    siteUrl: `https://ievavyliaudaite.herokuapp.com`,
+    hostname: `ievavyliaudaite.herokuapp.com`,
   },
   plugins: [
     `gatsby-plugin-sass`,
