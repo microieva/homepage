@@ -10,6 +10,8 @@ module.exports = {
     hostname: `portfolio-page-app.herokuapp.com`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
+
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
