@@ -83,7 +83,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby clean && gatsby develop",
+    "develop": "gatsby develop",
     "lint": "eslint . --ext=.js,.jsx",
     "lint:fix": "eslint . --ext=.js,.jsx",
     "clear-cache": "rm -r .cache",
