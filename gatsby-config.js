@@ -35,7 +35,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://portfolio-page-app.herokuapp.com`,
+        siteUrl: `https://ievavyliaudaite.herokuapp.com`,
       },
     },
     `gatsby-plugin-sass`,
