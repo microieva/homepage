@@ -1,10 +1,14 @@
+.link {
+  color: transparent;
+}
+
 .wrapper {
   border: 3px solid black;
   display: flex;
   flex-direction: column;
   height: 530px;
   font-family: 'Poiret One';
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 900;
 }
 
@@ -24,11 +28,11 @@
   transition: 0.3s;
   background: var(--yellow);
   width: 35%;
-  color: var(--yellow);
 }
 
 .yellow:hover {
   width: 70%;
+  font-size: 40px;
 }
 
 .blue:hover {
@@ -37,7 +41,9 @@
 
 .square:hover {
   background: white;
-  color: black;
+  .link {
+    color: black;
+  }
 }
 
 .two {
@@ -62,7 +68,6 @@
 .blue {
   width: 15%;
   background: var(--blue);
-  color: var(--blue);
 }
 
 .six {
@@ -72,9 +77,24 @@
 .red {
   width: 20%;
   background: var(--red);
-  color: var(--red);
 }
 
 .red:hover {
   width: 56%;
+}
+
+@media screen and (max-width: 415px) {
+  .link {
+    font-size: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    height: 400px;
+  }
+  .link {
+    font-size: 0.2rem;
+    color: transparent;
+  }
 }

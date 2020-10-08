@@ -28,8 +28,11 @@ const copyEmail = () => {
 const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <p>contact me:</p>
+      <div
+        className={footerStyles.footerDiv}
+        style={{ display: 'flex', flexDirection: 'column' }}
+      >
+        <p className={footerStyles.title}>contact me:</p>
         <div
           id="phoneNumber"
           type="text"
@@ -49,9 +52,9 @@ const Footer = () => {
           <span className={footerStyles.tooltiptext}>Copy</span>
         </div>
       </div>
-      <div style={{ textAlign: 'right' }}>
-        <p>
-          inspired by:
+      <div className={footerStyles.footerDiv}>
+        <p className={footerStyles.title}>inspired by:</p>
+        <div>
           <a href="https://en.wikipedia.org/wiki/Piet_Mondrian" target="blank">
             {' '}
             Mondrian
@@ -60,9 +63,12 @@ const Footer = () => {
           <a href="https://en.wikipedia.org/wiki/Bauhaus" target="blank">
             Bauhaus
           </a>
-        </p>
-        <p>
-          built with:
+        </div>
+      </div>
+
+      <div className={footerStyles.footerDiv}>
+        <p className={footerStyles.title}>built with:</p>
+        <div>
           <a href="https://www.gatsbyjs.org/" target="blank">
             {' '}
             Gatbsy
@@ -71,15 +77,17 @@ const Footer = () => {
           <a href="https://www.contentful.com/" target="blank">
             Contentful
           </a>
-        </p>
-        <p>
-          created by:
+        </div>
+      </div>
+      <div className={footerStyles.footerDiv}>
+        <p className={footerStyles.title}>created by:</p>
+        <div>
           <a href="https://www.linkedin.com/in/ievavyliaudaite/" target="blank">
             {' '}
             Ieva Vyliaudaite
           </a>
-          , © 2020
-        </p>
+          <spam className={footerStyles.spam}>, © 2020</spam>
+        </div>
       </div>
     </footer>
   )

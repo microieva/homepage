@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/ieva/portfolio/homepage/node_modules/gatsby-plugin-canonical-urls/gatsby-ssr'),
-      options: {"plugins":[],"siteUrl":"https://portfolio-page-app.herokuapp.com"},
+      options: {"plugins":[],"siteUrl":"https://ievavyliaudaite.herokuapp.com"},
     },{
       plugin: require('/home/ieva/portfolio/homepage/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},

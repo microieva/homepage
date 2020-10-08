@@ -13,13 +13,13 @@ const PortfolioPage = () => {
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={classnames(styles.square, styles.red)}>
-            <h5>Javascript</h5>
+            <h5 className={styles.title}>Javascript</h5>
             <div className={styles.links}>
               <p>
                 <a
                   href="https://microieva.github.io/color-generator/"
                   target="_blank"
-                  style={{ textDecoration: 'none', color: 'inherit' }}
+                  style={{ textDecoration: 'none' }}
                 >
                   demo
                 </a>
@@ -28,7 +28,7 @@ const PortfolioPage = () => {
                 <a
                   href="https://github.com/microieva/color-generator"
                   target="_blank"
-                  style={{ textDecoration: 'none', color: 'inherit' }}
+                  style={{ textDecoration: 'none' }}
                 >
                   code
                 </a>
@@ -36,13 +36,13 @@ const PortfolioPage = () => {
             </div>
           </div>
           <div className={classnames(styles.square, styles.blue)}>
-            <h5>React</h5>
+            <h5 className={styles.title}>React</h5>
             <div className={styles.links}>
               <p>
                 <a
                   href="https://sheltered-eyrie-21915.herokuapp.com/"
                   target="_blank"
-                  style={{ textDecoration: 'none', color: 'inherit' }}
+                  style={{ textDecoration: 'none' }}
                 >
                   demo
                 </a>
@@ -62,7 +62,7 @@ const PortfolioPage = () => {
 
         <div className={styles.row}>
           <div className={classnames(styles.square, styles.yellow)}>
-            <h5>React with Redux</h5>
+            <h5 className={styles.title}>React with Redux</h5>
             <div className={styles.links}>
               <p>
                 <a
@@ -85,7 +85,7 @@ const PortfolioPage = () => {
             </div>
           </div>
           <div className={classnames(styles.square, styles.white)}>
-            <h5>Java</h5>
+            <h5 className={styles.title}>Java</h5>
             <div className={styles.links}>
               <p className={styles.tooltip}>
                 <span className={styles.tooltiptext}>Demo localy</span>

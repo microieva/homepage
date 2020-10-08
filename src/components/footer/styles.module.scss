@@ -6,19 +6,28 @@
   div {
     color: darkgray;
     font-family: 'Poiret One';
+    width: 100%;
+    margin-right: 1rem;
     p {
       margin: 0;
-      a {
-        color: inherit;
-        font-size: inherit;
-        transition: 0.3s;
-      }
-      a:hover {
-        color: white;
-        font-size: 30px;
+    }
+    a {
+      color: inherit;
+      font-size: inherit;
+      transition: 0.3s;
+      .spam {
+        visibility: visible;
       }
     }
+    a:hover {
+      color: white;
+      font-size: 30px;
+    }
   }
+}
+
+.title {
+  color: white;
 }
 
 .tooltip {
@@ -68,4 +77,59 @@
 
 .tooltip:active .tooltiptext:after {
   border-color: green transparent transparent transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+  .footer {
+    div {
+      font-size: 1.5rem;
+    }
+  }
+  .footer-div {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .footer {
+    flex-direction: column;
+    div {
+      font-size: 1.2rem;
+    }
+  }
+  .footer-div {
+    margin-bottom: 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    div {
+      font-size: 0.9rem;
+    }
+  }
+
+  .footer-div {
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+  .tooltiptext {
+    visibility: hidden;
+  }
 }

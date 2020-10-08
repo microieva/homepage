@@ -36,27 +36,40 @@ const AboutPage = () => {
       <div className={styles.container}>
         <div className={styles.wrapper}>
           <div className={styles.row}>
-            <div className={styles.text}>
+            <div className={styles.textDiv}>
               <p>{documentToReactComponents(edges[0].node.section.json)}</p>
             </div>
-            <div className={classnames(styles.picture, styles.red)}>
-              <img src={edges[0].node.image.file.url} alt="Me" />
+            <div className={styles.pictureFlex}>
+              <div className={classnames(styles.pictureDiv, styles.red)}>
+                <img src={edges[0].node.image.file.url} alt="Me" />
+              </div>
+              <div className={styles.emptyDiv}></div>
             </div>
           </div>
           <div className={styles.row}>
-            <div className={classnames(styles.picture, styles.yellow)}>
-              <img src={edges[1].node.image.file.url} alt="Me" />
+            <div className={styles.pictureFlex}>
+              <div className={classnames(styles.pictureDiv, styles.yellow)}>
+                <img
+                  className={styles.img}
+                  src={edges[1].node.image.file.url}
+                  alt="Me"
+                />
+              </div>
+              <div className={styles.emptyDiv}></div>
             </div>
-            <div className={styles.text}>
+            <div className={styles.textDiv}>
               <p>{documentToReactComponents(edges[1].node.section.json)}</p>
             </div>
           </div>
           <div className={styles.row}>
-            <div className={styles.text}>
+            <div className={styles.textDiv}>
               <p>{documentToReactComponents(edges[2].node.section.json)}</p>
             </div>
-            <div className={classnames(styles.picture, styles.blue)}>
-              <img src={edges[2].node.image.file.url} alt="Me" />
+            <div className={styles.pictureFlex}>
+              <div className={classnames(styles.pictureDiv, styles.blue)}>
+                <img src={edges[2].node.image.file.url} alt="Me" />
+              </div>
+              <div className={styles.emptyDiv}></div>
             </div>
           </div>
         </div>

@@ -12,11 +12,8 @@ const IndexPage = () => (
     <div className={styles.wrapper}>
       <div className={styles.top}>
         <div className={classnames(styles.square, styles.yellow)}>
-          <Link
-            to="/about"
-            style={{ textDecoration: 'none', color: 'inherit' }}
-          >
-            about
+          <Link to="/about" style={{ textDecoration: 'none' }}>
+            <p className={styles.link}>about</p>
           </Link>
         </div>
         <div className={classnames(styles.square, styles.two)}></div>
@@ -26,15 +23,14 @@ const IndexPage = () => (
       <div className={styles.bottom}>
         <div className={classnames(styles.square, styles.four)}></div>
         <div className={classnames(styles.square, styles.blue)}>
-          <Link
-            to="/portfolio"
-            style={{ textDecoration: 'none', color: 'inherit' }}
-          >
-            portfolio
+          <Link to="/portfolio" style={{ textDecoration: 'none' }}>
+            <p className={styles.link}>portfolio</p>
           </Link>
         </div>
         <div className={classnames(styles.square, styles.six)}></div>
-        <div className={classnames(styles.square, styles.red)}>.</div>
+        <div className={classnames(styles.square, styles.red)}>
+          <p className={styles.link}>home</p>
+        </div>
       </div>
     </div>
   </Layout>

@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
 
-      <nav>
+      <nav className={headerStyles.nav}>
         <ul className={headerStyles.navList}>
           <li>
             <Link
