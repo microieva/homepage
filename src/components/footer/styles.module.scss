@@ -92,6 +92,9 @@
   .footer-div {
     margin-bottom: 30px;
   }
+  .tooltiptext {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 415px) {
@@ -106,8 +109,25 @@
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding: 0;
+  }
+  .tooltiptext {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 1.2rem;
+  }
+  .footer {
+    div {
+      font-size: 1rem;
+    }
+  }
+  .tooltiptext {
+    display: none;
   }
 }
 
@@ -116,7 +136,7 @@
     display: flex;
     flex-direction: column;
     div {
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
   }
 
@@ -130,6 +150,6 @@
   }
 
   .tooltiptext {
-    visibility: hidden;
+    display: none;
   }
 }

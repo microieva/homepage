@@ -103,6 +103,25 @@ img {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .container {
+    height: 420px;
+  }
+  .wrapper {
+    height: 418px;
+  }
+
+  .empty-div {
+    //width: 55px;
+    width: 6rem;
+  }
+  .text-div {
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .container {
     height: 396px;

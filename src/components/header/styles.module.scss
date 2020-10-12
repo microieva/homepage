@@ -85,14 +85,24 @@
     flex-direction: column;
   }
   .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .nav {
     min-width: 100%;
   }
   .nav-list {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .title {
+    font-size: 2.2rem;
+  }
+  .nav-list {
+    font-size: 1.8rem;
+    margin-top: 15px;
   }
 }
 
@@ -101,13 +111,13 @@
     flex-direction: column;
   }
   .title {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .nav {
     min-width: 100%;
   }
   .nav-list {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-top: 5px;
     line-height: 40px;
   }

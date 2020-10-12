@@ -89,6 +89,12 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .wrapper {
+    height: 420px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .wrapper {
     height: 400px;

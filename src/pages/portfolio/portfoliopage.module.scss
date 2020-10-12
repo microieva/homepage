@@ -104,6 +104,12 @@
   // }
 }
 
+@media screen and (max-width: 375px) {
+  .container {
+    height: 420px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .container {
     height: 400px;
