@@ -40,7 +40,7 @@ const PortfolioPage = () => {
             <div className={styles.links}>
               <p>
                 <a
-                  href="https://sheltered-eyrie-21915.herokuapp.com/"
+                  href="https://corona-covid19-world.herokuapp.com/"
                   target="_blank"
                   style={{ textDecoration: 'none' }}
                 >
@@ -49,7 +49,7 @@ const PortfolioPage = () => {
               </p>
               <p>
                 <a
-                  href="https://github.com/microieva/countries-and-weather"
+                  href="https://github.com/microieva/hello-world"
                   target="_blank"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
